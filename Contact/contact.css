@@ -47,7 +47,7 @@ span:hover{
     font-size: 1.871rem;
 }
 
-input[type=text]{
+input[type=text],input[type=email]{
     background-color: #1f473d;
     color: rgb(255, 255, 255);
     border-radius: 5px;
