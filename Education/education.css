@@ -1,0 +1,71 @@
+.mainheading{
+    font-size: 2.7rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#line1{
+    height: 0.4px;
+    width: 400px;
+    color: black;
+    background-color: black;
+}
+
+.mitaoe{
+    display: flex;
+}
+
+.mitlogo img{
+    height: 90px;
+    width: 350px;
+    margin-top: 90px;
+}
+
+.mitinfo{
+    margin-top: 100px;
+    margin-left: 60px;
+    text-align: center;
+}
+
+.lbsv{
+    display: flex;
+}
+
+.lbsvlogo img{
+    margin-top: 50px;
+    margin-left: 60px;
+    height: 145px;
+    width: 160px;
+}
+
+.lbsvinfo{
+    margin-top: 100px;
+    margin-left: 280px;
+
+}
+
+.mahila{
+    display: flex;
+}
+
+.mahilalogo img{
+    margin-top: 80PX;
+    margin-left: 70PX;
+    height: 110px;
+    width: 140px;
+}
+
+.mahilainfo{
+    margin-top: 110px;
+    margin-left: 130px;
+    text-align: center;
+}
+
+img:hover{
+    
+    transform: scale(1.1);
+}
+
+img{
+    transition: transform 0.3s ease-in-out 0.08s;
+}

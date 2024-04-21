@@ -1,0 +1,174 @@
+.mainheading{
+    font-size: 2.7rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.heading3{
+    font-size: 2.7rem;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#line1{
+    height: 0.4px;
+    width: 400px;
+    color: black;
+    background-color: black;
+}
+
+.mainpara{
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+.para2{
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+
+.clang{
+    margin-right: 140px;
+    margin-left: 40px;
+    margin-top: 80px;
+    height: 120px;
+    width: 120px;
+}
+
+.python{
+    margin-right: 140px;
+    margin-top: 80px;
+    margin-left: 10px;
+    height: 120px;
+    width: 120px;
+}
+
+.html{
+    margin-right: 110px;
+    margin-top: 80px;
+    height: 120px;
+    width: 215px;
+}
+
+.css{
+    margin-left: 170px;
+    margin-top: 80px;
+    height: 120px;
+    width: 120px;
+}
+
+.js{
+    margin-left: 130px;
+    margin-top: 80px;
+    height: 130px;
+    width: 230px;
+}
+
+.tableau{
+    margin-right: 80px;
+    margin-top: 80px;
+    height: 120px;
+    width: 370px;
+}
+
+img:hover{
+    
+    transform: scale(1.1);
+}
+
+img{
+    transition: transform 0.3s ease-in-out 0.08s;
+}
+
+.ecell{
+    height: 160px;
+    width: 200px;
+    margin-top: 40px;
+}
+
+.mozilla{
+    height: 190px;
+    width: 200px;
+    margin-top:40px ;
+}
+
+.experience{
+    display: flex;
+    
+}
+
+.subheading{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.certifications{
+    display: flex;
+    justify-content: space-around;
+}
+
+.certifications2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ctf1{
+    background-color: rgb(0, 0, 0);
+    margin-top: 70px;
+    height: 250px;
+    width: 300px;
+    border-radius:10px ;
+}
+
+.ctf2{
+    background-color: rgb(0, 0, 0);
+    height: 250px;
+    width: 300px;
+    margin-top: 70px;
+    border-radius:10px ;
+    /* margin-left: 50px; */
+}
+
+.ctf3{
+    background-color: rgb(0, 0, 0);
+    height: 250px;
+    width: 300px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    border-radius:10px ;
+    /* margin-left: 50px; */
+}
+
+.ctf4{
+    background-color: rgb(0, 0, 0);
+    height: 250px;
+    width: 300px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    border-radius:10px ;
+    /* margin-left: 50px; */
+}
+
+.ctfimg1{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ctfimg2{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+}
+
+.certificatepara{
+    color: white;
+    transition: transform 0.3s ease-in-out 0.08s;
+}
+
+.certificatepara:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}

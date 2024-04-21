@@ -1,0 +1,107 @@
+span{
+    color: #52616B;
+}
+
+span:hover{
+    text-decoration: black underline;
+    color: rgb(208, 6, 6);
+    text-shadow: 2px 2px 8px white;
+} 
+
+.contact{
+    text-align: center;
+}
+
+#line1{
+    height: 0.4px;
+    width: 600px;
+    color: black;
+    background-color: black;
+}
+
+.name{
+    height: 20px;
+    width: 200px;
+}
+
+.message{
+    width: 350px;
+    height: 100px;
+}
+
+.mainheading{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.phone{
+    text-align: center;
+}
+
+#contact{
+    margin-bottom: 80px;
+}
+
+#mail span:hover{
+    font-size: 1.871rem;
+}
+
+input[type=text]{
+    background-color: #1f473d;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    border: 2px 2px rgb(230, 55, 55);
+    box-shadow: 1px 1px 6px rgb(160, 156, 156);
+}
+
+input[type=text]:hover{
+    background-color: white;
+    color: black;
+}
+
+
+textarea{
+    background-color: #1f473d;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    border: 2px 2px rgb(230, 55, 55);
+    box-shadow: 1px 1px 6px rgb(160, 156, 156);
+}
+
+textarea:hover{
+    background-color: white;
+    color: black;
+}
+
+.submitbtn{
+    margin-bottom: 100px;
+    margin-top: 15px;
+    background-color: #244240;
+    color: #F0F5F9;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 320;
+    height: 40px;
+    width: 120px;
+    box-shadow: 1px 1px 6px black,1px 1px 5px whitesmoke;
+    transition: transform 0.4s ease-in-out;
+}
+
+button:hover{
+    color:1E2022px;
+    opacity: 0.9;
+    box-shadow: 1px 1px 9px #b2d8d5;
+    transform: scale(1.1);
+}
+
+
+
+
