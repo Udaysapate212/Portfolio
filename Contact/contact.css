@@ -58,7 +58,7 @@ input[type=text],input[type=email]{
     box-shadow: 1px 1px 6px rgb(160, 156, 156);
 }
 
-input[type=text]:hover{
+input[type=text]:hover,input[type=email]:hover{
     background-color: white;
     color: black;
 }
