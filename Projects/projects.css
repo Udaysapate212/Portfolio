@@ -11,15 +11,18 @@
     background-color: black;
 }
 
+
 .projects1{
     display: flex;
     margin-top: 90px;
+    justify-content: space-around;
 }
 
 .projects2{
     display: flex;
-    margin-top: 140px;
+    margin-top: 100px;
     margin-bottom: 100px;
+    justify-content: space-around;
 }
 
 /* .p1{
@@ -41,7 +44,17 @@
     transition: transform 0.6s ease-in-out 0.1s;
 }
 
-.chemeasy:hover, .disarelief{
+.firstgear, .portfolio{
+    height:210px;
+    width: 330px;
+    border-radius: 14px;
+    border: 2px solid black;
+    transition: transform 0.6s ease-in-out 0.1s;
+}
+
+
+
+.chemeasy:hover, .disarelief:hover, .firstgear:hover, .portfolio:hover{
     transform: scale(1.1);
 }
 
@@ -78,3 +91,15 @@
     margin-left: 100px;
     transition: 0.8s ease-in-out;
 } */
+
+.portinfo,.cheminfo,.fgearinfo,.disinfo{
+    color: #000000;
+    text-shadow: 1px 1px 4px whitesmoke;
+    transition: transform 0.4s ease-in-out 0.1s;
+}
+
+
+.portinfo:hover,.cheminfo:hover,.fgearinfo:hover,.disinfo:hover{
+    transform: scale(1.1);
+    color: #003C43;
+}
